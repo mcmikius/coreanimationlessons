@@ -50,6 +50,8 @@ class SecondViewController: UIViewController {
             button.layer.shadowRadius = 10
         }
     }
+    @IBAction func tappedButton(_ sender: UIButton) {
+    }
     
     override func viewDidLayoutSubviews() {
         newGradientLayer.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)

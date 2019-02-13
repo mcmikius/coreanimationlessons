@@ -53,6 +53,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="5Y4-y6-p6F" id="sTs-Oq-MpJ"/>
                         <outlet property="imageView" destination="Qqh-PB-lxc" id="7OM-vv-M1l"/>
                         <segue destination="QOs-tZ-jqO" kind="show" identifier="showSecondScreen" id="84v-Ee-mTJ"/>
                     </connections>
@@ -92,12 +93,17 @@
                                 <state key="normal" title="Take the cup">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tappedButton:" destination="QOs-tZ-jqO" eventType="touchUpInside" id="3bN-FX-KXy"/>
+                                    <segue destination="8x2-gL-qsQ" kind="show" identifier="showThirdController" id="4ua-8X-r3g"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76024037599563599" green="0.89662289619445801" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WGf-4X-ACi" firstAttribute="top" secondItem="fk2-Ov-uZX" secondAttribute="bottom" constant="41" id="I6C-zw-3wd"/>
                             <constraint firstItem="fk2-Ov-uZX" firstAttribute="centerX" secondItem="SGZ-vu-93B" secondAttribute="centerX" id="YSh-X4-CNX"/>
+                            <constraint firstItem="fk2-Ov-uZX" firstAttribute="leading" secondItem="SGZ-vu-93B" secondAttribute="leading" constant="87.5" id="b2Q-XL-VzD"/>
                             <constraint firstItem="XBb-8i-2Sl" firstAttribute="centerY" secondItem="SGZ-vu-93B" secondAttribute="centerY" id="ct5-Dg-QoK"/>
                             <constraint firstItem="XBb-8i-2Sl" firstAttribute="centerX" secondItem="SGZ-vu-93B" secondAttribute="centerX" id="hpD-RV-eJv"/>
                         </constraints>
@@ -110,6 +116,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNp-n9-Cj6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="812" y="34.632683658170919"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="NUh-Zb-3Kb">
+            <objects>
+                <viewController id="8x2-gL-qsQ" customClass="ThirdViewController" customModule="CALayerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mtI-bM-o10"/>
+                        <viewControllerLayoutGuide type="bottom" id="hBM-rC-HgE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u1d-32-Ah9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1D5-6X-GIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="35"/>
         </scene>
     </scenes>
     <resources>

@@ -13,6 +13,7 @@
 		356854FA1DF80D77003A06FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356854F91DF80D77003A06FC /* Assets.xcassets */; };
 		356854FD1DF80D77003A06FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356854FB1DF80D77003A06FC /* LaunchScreen.storyboard */; };
 		356855051DF81F6A003A06FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356855041DF81F6A003A06FC /* SecondViewController.swift */; };
+		FB7DDFDB2214753600BF71E0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		356854FC1DF80D77003A06FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356854FE1DF80D77003A06FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356855041DF81F6A003A06FC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				356854F21DF80D77003A06FC /* AppDelegate.swift */,
 				356854F41DF80D77003A06FC /* ViewController.swift */,
 				356855041DF81F6A003A06FC /* SecondViewController.swift */,
+				FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */,
 				356854F61DF80D77003A06FC /* Main.storyboard */,
 				356854F91DF80D77003A06FC /* Assets.xcassets */,
 				356854FB1DF80D77003A06FC /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				356855051DF81F6A003A06FC /* SecondViewController.swift in Sources */,
 				356854F51DF80D77003A06FC /* ViewController.swift in Sources */,
+				FB7DDFDB2214753600BF71E0 /* ThirdViewController.swift in Sources */,
 				356854F31DF80D77003A06FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
