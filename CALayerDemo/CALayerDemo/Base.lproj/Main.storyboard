@@ -128,12 +128,55 @@
                     <view key="view" contentMode="scaleToFill" id="u1d-32-Ah9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJr-EY-4zq" customClass="Button" customModule="CALayerDemo" customModuleProvider="target">
+                                <rect key="frame" x="111" y="48" width="153" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="30C-me-aZj"/>
+                                    <constraint firstAttribute="width" secondItem="aJr-EY-4zq" secondAttribute="height" multiplier="153:64" id="DG1-dK-bac"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadii">
+                                        <real key="value" value="32"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWY-JN-Chi" customClass="View" customModule="CALayerDemo" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mWY-JN-Chi" secondAttribute="height" multiplier="1:1" id="95R-nO-a85"/>
+                                    <constraint firstAttribute="height" constant="300" id="af3-Zw-ok6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusSize">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mWY-JN-Chi" firstAttribute="centerY" secondItem="u1d-32-Ah9" secondAttribute="centerY" id="CXl-FF-r5C"/>
+                            <constraint firstItem="mWY-JN-Chi" firstAttribute="centerX" secondItem="u1d-32-Ah9" secondAttribute="centerX" id="cLl-6Q-La0"/>
+                            <constraint firstItem="aJr-EY-4zq" firstAttribute="centerX" secondItem="u1d-32-Ah9" secondAttribute="centerX" id="l5X-4g-EMF"/>
+                            <constraint firstItem="aJr-EY-4zq" firstAttribute="top" secondItem="mtI-bM-o10" secondAttribute="bottom" constant="28" id="pc3-yW-lqb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1D5-6X-GIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714" y="35"/>
+            <point key="canvasLocation" x="1712.8" y="34.632683658170919"/>
         </scene>
     </scenes>
     <resources>
