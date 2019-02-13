@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    
+    
     var newGradientLayer: CAGradientLayer! {
         didSet {
             newGradientLayer.startPoint = CGPoint(x: 1, y: 0)
@@ -55,8 +57,11 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         newGradientLayer = CAGradientLayer()
         view.layer.insertSublayer(newGradientLayer, at: 0)
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
