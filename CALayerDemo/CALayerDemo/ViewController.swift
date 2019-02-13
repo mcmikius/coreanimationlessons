@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var gradientLayer: CAGradientLayer! {
+        didSet {
+            gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+            gradientLayer.endPoint = CGPoint(x: 0, y: 1)
+            let startColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1).cgColor
+            let endColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1).cgColor
+            gradientLayer.colors = [startColor, endColor]
+        }
+    }
+    
     @IBOutlet weak var button: UIButton! {
         didSet {
             button.layer.shadowOffset = CGSize(width: 0, height: 5)
@@ -28,12 +38,15 @@ class ViewController: UIViewController {
             imageView.layer.borderWidth = 10
         }
     }
-    
+    override func viewDidLayoutSubviews() {
+        gradientLayer.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: 20 + 21 + imageView.frame.size.height / 2)
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        gradientLayer = CAGradientLayer()
+        view.layer.insertSublayer(gradientLayer, at: 0)
     }
 }
 
