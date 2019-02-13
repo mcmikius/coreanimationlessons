@@ -16,6 +16,7 @@
 		FB7DDFDB2214753600BF71E0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */; };
 		FB7DDFDD221478A900BF71E0 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7DDFDC221478A900BF71E0 /* Button.swift */; };
 		FB7DDFDF221478B800BF71E0 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7DDFDE221478B800BF71E0 /* View.swift */; };
+		FB7DDFE12214BE2600BF71E0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7DDFE02214BE2600BF71E0 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		FB7DDFDC221478A900BF71E0 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		FB7DDFDE221478B800BF71E0 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FB7DDFE02214BE2600BF71E0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				356854F41DF80D77003A06FC /* ViewController.swift */,
 				356855041DF81F6A003A06FC /* SecondViewController.swift */,
 				FB7DDFDA2214753600BF71E0 /* ThirdViewController.swift */,
+				FB7DDFE02214BE2600BF71E0 /* FourthViewController.swift */,
 				356854F61DF80D77003A06FC /* Main.storyboard */,
 				FB7DDFDC221478A900BF71E0 /* Button.swift */,
 				FB7DDFDE221478B800BF71E0 /* View.swift */,
@@ -153,6 +156,7 @@
 				FB7DDFDD221478A900BF71E0 /* Button.swift in Sources */,
 				356855051DF81F6A003A06FC /* SecondViewController.swift in Sources */,
 				FB7DDFDF221478B800BF71E0 /* View.swift in Sources */,
+				FB7DDFE12214BE2600BF71E0 /* FourthViewController.swift in Sources */,
 				356854F51DF80D77003A06FC /* ViewController.swift in Sources */,
 				FB7DDFDB2214753600BF71E0 /* ThirdViewController.swift in Sources */,
 				356854F31DF80D77003A06FC /* AppDelegate.swift in Sources */,
@@ -299,7 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.CALayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -313,7 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.CALayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

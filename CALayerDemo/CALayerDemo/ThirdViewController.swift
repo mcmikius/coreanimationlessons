@@ -9,7 +9,10 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
+    @IBOutlet weak var tappedButton: Button!
+    @IBAction func actionTappedButton(_ sender: Button) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -150,6 +150,10 @@
                                         <real key="value" value="32"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionTappedButton:" destination="8x2-gL-qsQ" eventType="touchUpInside" id="RKL-8f-WSB"/>
+                                    <segue destination="z7D-d3-mZh" kind="show" id="WgV-Bl-3ml"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWY-JN-Chi" customClass="View" customModule="CALayerDemo" customModuleProvider="target">
                                 <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
@@ -173,10 +177,31 @@
                             <constraint firstItem="aJr-EY-4zq" firstAttribute="top" secondItem="mtI-bM-o10" secondAttribute="bottom" constant="28" id="pc3-yW-lqb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tappedButton" destination="aJr-EY-4zq" id="W9J-zB-agk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1D5-6X-GIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1712.8" y="34.632683658170919"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="9MW-nq-tvM">
+            <objects>
+                <viewController id="z7D-d3-mZh" customClass="FourthViewController" customModule="CALayerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hwy-pX-rOV"/>
+                        <viewControllerLayoutGuide type="bottom" id="x1u-20-gtU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SmI-dB-YLv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcl-Fn-MTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2518" y="35"/>
         </scene>
     </scenes>
     <resources>
